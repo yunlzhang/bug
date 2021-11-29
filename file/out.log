@@ -1,0 +1,26 @@
+
+> test@1.0.0 build /Users/qitmac001069/Desktop/test/bug/file
+> yarn && webpack
+
+yarn install v1.22.17
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.26s.
+Hash: 2f5d98d91ce63b4b1054
+Version: webpack 4.44.1
+Time: 71ms
+Built at: 2021-11-29 5:25:41 PM
+                       Asset      Size  Chunks                         Chunk Names
+main@3d27e6d617a8bacdbe8e.js  3.79 KiB    main  [emitted] [immutable]  main
+Entrypoint main = main@3d27e6d617a8bacdbe8e.js
+[./src/index.js] 21 bytes {main} [built]
+
+> test@1.0.0 build /Users/qitmac001069/Desktop/test/bug/file
+> yarn && webpack
+
+yarn install v1.22.17
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+Done in 0.43s.
